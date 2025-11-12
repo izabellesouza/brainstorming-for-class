@@ -5,12 +5,14 @@
   "type": "module",
   "homepage": "https://seu-usuario.github.io/brainstorming-for-class-",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "start-server": "node server.js"
+},
+
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.3",
     "@vitejs/plugin-react": "^4.3.4",
@@ -21,6 +23,8 @@
     "vite": "^6.2.0"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
     "framer-motion": "^12.6.5",
     "lucide-react": "^0.487.0",
     "parallax-js": "^3.1.0",
@@ -29,5 +33,10 @@
     "react-icons": "^5.5.0",
     "react-router-dom": "^6.30.0",
     "react-scroll-parallax": "^3.4.5"
-  }
+  },
+  "description": "O **Brainstorming-for-Class** é um projeto desenvolvido por **Izabelle Souza** e **Kayo Brenno**, com o objetivo de criar uma plataforma digital voltada para **estudantes e grupos de estudo**.",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
