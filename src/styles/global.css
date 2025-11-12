@@ -1,0 +1,39 @@
+/* global.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+/* Tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilo global */
+body {
+  @apply bg-white text-black dark:bg-gray-900 dark:text-white;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+/* Estilos para botões */
+button {
+  @apply px-4 py-2 rounded font-medium transition duration-300;
+  @apply bg-blue-500 text-white hover:bg-blue-600 dark:bg-blue-700 dark:text-white dark:hover:bg-blue-800;
+}
+
+/* Estilos para títulos */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @apply font-semibold;
+}
+
+/* Links */
+a {
+  @apply transition-colors duration-300;
+}
+
+/* Seções */
+section {
+  @apply py-12 px-4 md:px-8;
+}
